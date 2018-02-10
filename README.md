@@ -9,4 +9,5 @@ A curated list of machine learning methods and algorithms in Jupyter notebooks.
 - Logistic Regression
 - K Nearest Neighbors
   - [K Nearest Neighbor Example using scikit - learn](#)
-
+- Kaggle Playground
+  - [Chocolate Data Set](#)
