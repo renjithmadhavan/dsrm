@@ -13,4 +13,4 @@ echo "c.NotebookApp.password = 'sha1:62fe0f984350:6f1ac3b3da2573e2f997518e346eee
 echo "alias mlstart='cd ~/dsrm; jupyter notebook --no-browser --ip=0.0.0.0'" >> ~/.bashrc
 echo "source activate ml101" >> ~/.bashrc
 source ~/.bashrc
-(crontab -l 2>/dev/null; echo "@reboot /home/`whoami`/dsrm/run_jupyter.sh") | crontab -
+#(crontab -l 2>/dev/null; echo "@reboot /home/`whoami`/dsrm/run_jupyter.sh") | crontab -
