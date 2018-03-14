@@ -1,0 +1,23 @@
+ 1008  ls -ltr
+ 1009  jupyter lab --ip=0.0.0.0
+ 1010  export SPARK_HOME=/home/renjith/anaconda3/envs/ml101/lib/python3.6
+ 1011  export PATH=${SPARK_HOME}/bin:$PATH
+ 1012  jupyter lab --ip=0.0.0.0
+ 1013  export SPARK_HOME=/home/renjith/anaconda3/envs/ml101
+ 1014  export PATH=${SPARK_HOME}/bin:$PATH
+ 1015  jupyter lab --ip=0.0.0.0
+ 1016  export SPARK_HOME=/home/renjith/anaconda3/envs/ml101/lib/python3.6/site-packages/pyspark
+ 1017  jupyter lab --ip=0.0.0.0
+ 1018  jupyter kernelspec list
+ 1019  pip install toree
+ 1020  jupyter toree install --spark_home=/home/renjith/anaconda3/envs/ml101/lib/python3.6/site-packages/pyspark
+ 1021  sudo jupyter toree install --spark_home=/home/renjith/anaconda3/envs/ml101/lib/python3.6/site-packages/pyspark
+ 1022  which jupyter
+ 1023  sudo /home/renjith/anaconda3/envs/ml101/bin/jupyter toree install --spark_home=/home/renjith/anaconda3/envs/ml101/lib/python3.6/site-packages/pyspark
+ 1024  jupyter kernelspec list
+ 1025  jupyter toree install --interpreters=Scala,PySpark,SparkR,SQL
+ 1026  which jupyter
+ 1027  sudo /home/renjith/anaconda3/envs/ml101/bin/jupyter toree install --interpreters=Scala,PySpark,SparkR,SQL
+ 1028  sudo /home/renjith/anaconda3/envs/ml101/bin/jupyter toree install --interpreters=Scala,PySpark,SparkR,SQL --spark_home=/home/renjith/anaconda3/envs/ml101/lib/python3.6/site-packages/pyspark
+ 1029  jupyter kernelspec list
+
