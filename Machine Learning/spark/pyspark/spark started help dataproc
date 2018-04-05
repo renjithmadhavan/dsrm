@@ -1,0 +1,15 @@
+C:\Users\renjith\AppData\Local\Google\Cloud SDK>gcloud dataproc clusters create datascience --initialization-actions gs://dataproc-initialization-actions/jupyter/jupyter.sh
+Waiting on operation [projects/fastai-1-198702/regions/global/operations/ed4eae3e-6691-3a80-9d23-19a3d4a1bc6a].
+Waiting for cluster creation operation...done.
+Created [https://dataproc.googleapis.com/v1/projects/fastai-1-198702/regions/global/clusters/datascience] Cluster placed in zone [us-east1-b].
+
+C:\Users\renjith\AppData\Local\Google\Cloud SDK>gcloud dataproc clusters list
+NAME         WORKER_COUNT  PREEMPTIBLE_WORKER_COUNT  STATUS   ZONE
+datascience  2                                       RUNNING  us-east1-b
+
+master-node:8123  ( jupyter notebook )
+
+yarn console ( master-node:8088 )
+
+
+gcloud dataproc clusters delete datascience
